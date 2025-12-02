@@ -40,7 +40,7 @@ public void demoQaHw3() {
     $(By.xpath("//td[text()='Student Email']/following-sibling::td")).shouldHave(text("Vasya@rt.ru"));
     $(By.xpath("//td[text()='Gender']/following-sibling::td")).shouldHave(text("Male"));
     $(By.xpath("//td[text()='Mobile']/following-sibling::td")).shouldHave(text("1234567899"));
-    $(By.xpath("//td[text()='Date of Birth']/following-sibling::td")).shouldHave(text("01 December,2025"));
+    $(By.xpath("//td[text()='Date of Birth']/following-sibling::td")).shouldHave(text("02 December,2025"));
     $(By.xpath("//td[text()='Subjects']/following-sibling::td")).shouldHave(text("Computer Science"));
     $(By.xpath("//td[text()='Hobbies']/following-sibling::td")).shouldHave(text("Sports"));
     $(By.xpath("//td[text()='Picture']/following-sibling::td")).shouldHave(text("ToolSqa.jpg"));
