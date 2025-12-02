@@ -39,16 +39,16 @@ public void demoQaHw3() {
      // Проверки заполнения полей на корректность
 
     $(By.xpath("//*[@id='example-modal-sizes-title-lg']")).shouldHave(text("Thanks for submitting the form"));
-    $(By.xpath("//td[text()='Student Name']/following-sibling::td")).shouldHave(text("Vasya Pupkin"));
-    $(By.xpath("//td[text()='Student Email']/following-sibling::td")).shouldHave(text("Vasya@rt.ru"));
-    $(By.xpath("//td[text()='Gender']/following-sibling::td")).shouldHave(text("Male"));
-    $(By.xpath("//td[text()='Mobile']/following-sibling::td")).shouldHave(text("1234567899"));
-    $(By.xpath("//td[text()='Date of Birth']/following-sibling::td")).shouldHave(text("09 June,2000"));
-    $(By.xpath("//td[text()='Subjects']/following-sibling::td")).shouldHave(text("Computer Science"));
-    $(By.xpath("//td[text()='Hobbies']/following-sibling::td")).shouldHave(text("Sports"));
-    $(By.xpath("//td[text()='Picture']/following-sibling::td")).shouldHave(text("ToolSqa.jpg"));
-    $(By.xpath("//td[text()='Address']/following-sibling::td")).shouldHave(text("some street 1"));
-    $(By.xpath("//td[text()='State and City']/following-sibling::td")).shouldHave(text("NCR Delhi"));
+    $(By.xpath("//*[text()='Student Name']/following-sibling::td")).shouldHave(text("Vasya Pupkin"));
+    $(By.xpath("//*[text()='Student Email']/following-sibling::td")).shouldHave(text("Vasya@rt.ru"));
+    $(By.xpath("//*[text()='Gender']/following-sibling::td")).shouldHave(text("Male"));
+    $(By.xpath("//*[text()='Mobile']/following-sibling::td")).shouldHave(text("1234567899"));
+    $(By.xpath("//*[text()='Date of Birth']/following-sibling::td")).shouldHave(text("09 June,2000"));
+    $(By.xpath("//*[text()='Subjects']/following-sibling::td")).shouldHave(text("Computer Science"));
+    $(By.xpath("//*[text()='Hobbies']/following-sibling::td")).shouldHave(text("Sports"));
+    $(By.xpath("//*[text()='Picture']/following-sibling::td")).shouldHave(text("ToolSqa.jpg"));
+    $(By.xpath("//*[text()='Address']/following-sibling::td")).shouldHave(text("some street 1"));
+    $(By.xpath("//*[text()='State and City']/following-sibling::td")).shouldHave(text("NCR Delhi"));
 
 
 
