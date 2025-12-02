@@ -1,7 +1,7 @@
-package tests.Lesson3.Hw3;
-
+package Lesson3.Hw3;
 
 import Method.MethodBeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
@@ -9,11 +9,11 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
 
-public class DemoQaHw3 extends MethodBeforeAll {
+public class DemoHw extends MethodBeforeAll {
 
 
 @Test
-public void demoQaHw3() {
+public void demoHw3() {
 
     open("/automation-practice-form");
     $(By.xpath("//*[@id='firstName']")).sendKeys("Vasya");

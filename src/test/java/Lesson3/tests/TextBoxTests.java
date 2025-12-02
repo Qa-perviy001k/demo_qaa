@@ -1,4 +1,4 @@
-package tests.Lesson3;
+package Lesson3.tests;
 
 import Method.MethodBeforeAll;
 import org.junit.jupiter.api.Test;
