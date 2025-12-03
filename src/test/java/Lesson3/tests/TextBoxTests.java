@@ -1,13 +1,13 @@
 package Lesson3.tests;
 
-import Method.MethodBeforeAll;
+import Method.TestBase;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
-public class TextBoxTests extends MethodBeforeAll {
+public class TextBoxTests extends TestBase {
 
     @Test
     void fillFormTest() {
