@@ -1,4 +1,4 @@
-package Lesson4.hw4;
+package hwJava;
 
 public class Hw4 {
 

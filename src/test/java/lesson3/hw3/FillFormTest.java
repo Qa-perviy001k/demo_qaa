@@ -1,6 +1,6 @@
-package Lesson3.hw3;
+package lesson3.hw3;
 
-import method.TestBase;
+import beforeAll.TestBase;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
