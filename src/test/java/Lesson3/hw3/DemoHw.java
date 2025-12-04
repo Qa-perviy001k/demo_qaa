@@ -1,7 +1,6 @@
-package Lesson3.Hw3;
+package Lesson3.hw3;
 
-import Method.TestBase;
-import org.junit.jupiter.api.Tag;
+import method.TestBase;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
@@ -15,6 +14,8 @@ public class DemoHw extends TestBase {
     @Test
     public void demoHw3() {
         open("/automation-practice-form");
+        executeJavaScript("$('footer').remove();");
+        executeJavaScript("$('#fixedban').remove();");
         $(By.xpath("//*[@id='firstName']")).sendKeys("Vasya");
         $(By.xpath("//*[@id='lastName']")).sendKeys("Pupkin");
         $(By.xpath("//*[@id='userEmail']")).sendKeys("Vasya@rt.ru");

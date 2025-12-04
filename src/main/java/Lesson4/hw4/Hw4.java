@@ -1,4 +1,4 @@
-package Lesson4.Hw4;
+package Lesson4.hw4;
 
 public class Hw4 {
 
